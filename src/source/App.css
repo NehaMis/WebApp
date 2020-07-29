@@ -1,0 +1,62 @@
+.container1 {
+    display: inline-flex;
+    padding: 10vw 0 0 27vw;
+}
+.container2 {
+    height: 20vw;
+    border: 1px solid grey;
+    width: 20vw;
+    margin-right: 5vw;
+    text-align: center;
+}
+
+.container2:hover {
+    height: 21vw;
+    width: 21vw;
+    margin-right: 4vw;
+    transition: 100ms ease;
+}
+
+.icon1 {
+    height: 8vw;
+    width: 8vw;
+    margin: 3vw 0 3vw 0;
+}
+
+.menuName {
+    font-size: 1.5vw;
+}
+
+.shadow {
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.extraShadow {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.row {
+    line-height: 3vw;
+    border-bottom: 1px solid #eee;
+    padding-left: 2%;
+}
+
+.row:hover {
+    background-color: #2196f3;
+    color: white;
+}
+
+tr.dataRow td {
+    border-bottom: 1px solid #eee;
+    line-height: 3vh;
+    height: 3vw;
+    padding: 1%;
+}
+
+tr.dataHead th {
+    line-height: 3vh;
+    border-bottom: 1px solid grey;
+    height: 4vw;
+    padding: 1%;
+}
